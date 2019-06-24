@@ -1,4 +1,3 @@
-
 import datetime
 from django.test import TestCase
 from django.utils import timezone
@@ -131,11 +130,14 @@ class QuestionDetailViewTests(TestCase):
         self.assertContains(response.status_code, past_question.question_text)
 
 
+class QuestionResultsViewTests(TestCase):
+    def test_votes(self):
+        pass
 # TODO
 """
 We ought to add a similar get_queryset method to ResultsView and create 
 a new test class for that view. It’ll be very similar to what
- we have just created; in fact there will be a 
+we have just created; in fact there will be a 
 lot of repetition.
 
 We could also improve our application in other ways, adding tests 
