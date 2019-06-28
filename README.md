@@ -8,29 +8,31 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+Make sure you have `Python3` installed in your machine.
 
-```
-Give examples
-```
+
 
 ### Installing
 
 A step by step series of examples that tell you how to get a development env running
 
-Say what the step will be
+Clone the repo
 
 ```
-Give the example
+git clone https://github.com/Sukhrobjon/django-starter-tutorial.git
 ```
 
-And repeat
+Go to folder
 
 ```
-until finished
+cd django-starter-tutorial
 ```
 
-End with an example of getting some data out of the system or using it for a little demo
+Now Install `venv` by typing
+
+```
+virtualenv -p python3 venv
+```
 
 ## Running the tests
 
