@@ -33,7 +33,12 @@ Now Install `venv` by typing
 ```
 virtualenv -p python3 venv
 ```
-
+`pip` install followings by activating virtual environment 
+activate venv: 
+`source venv\bin\activate`
+```
+pip install django
+```
 ## Running the tests
 
 Explain how to run the automated tests for this system
